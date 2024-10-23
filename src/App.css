@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee2e2; /* Light background for contrast */
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between products */
+}
+
+.product {
+  background: rgb(48, 45, 45);
+  border: 1px solid #ccc; /* Light border around products */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Padding inside each product */
+  width: 250px; /* Fixed width for product cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.product:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.product img {
+  max-width: 100%; /* Ensure image is responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Rounded image corners */
+}
+
+h1 {
+  color: #333; /* Darker color for the header */
+}
+
+p {
+  font-size: 1.2em; /* Slightly larger font for prices */
+  color: #666; /* Gray color for price text */
+}
